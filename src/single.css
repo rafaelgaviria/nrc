@@ -1,0 +1,113 @@
+.single{
+  padding: 0 1em;
+  @media (--tablet){
+    width: 100%;
+  }
+  @media (--desktop){
+    width: 100%;
+    padding: 0px;
+  }
+  .u-wrapper{
+    padding: 0 10px;
+    @media (--desktop){
+      padding: 0 40px;
+    }
+    
+    .meta-info{
+      width: 100%;
+      display: block;
+      margin: 25px 0;
+      max-width: 1105px;
+      .icon-camera{
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #FF7602;
+        width: 75px;
+        img{
+          height: 14px;
+        }
+      }
+      .abre-leyenda{
+        color: var(--bg-primaryColor);
+        font-style: italic;
+        font-size: 10px 14px responsive;
+      }
+      .abre-leyenda:hover{
+        text-decoration: underline;
+      }
+      .leyenda{
+        font-weight: 300;
+        font-style: italic;
+        color: #9B9B9B;
+        font-size: 1em;
+      }
+
+      h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px 50px responsive;
+        margin: 0 0 20px;
+      }
+      &-compartir{
+        border-bottom: 1px solid var(--bg-primaryColor);
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        &-fecha{
+          flex: 1 1 auto;
+          align-self: flex-end;
+          h5{
+            font-weight: 300;
+            font-style: normal;
+            color: #9B9B9B;
+            font-size: 12px 14.94px responsive;
+          }
+        }
+        &-social{
+          min-width: 155px;
+          flex: 0 0 auto;
+        }
+      }
+    }
+  }
+  .single-body {
+    max-width: 850px;
+    width: 100%;
+    margin-left: 0 !important;
+    p{
+      font-size: 18px;
+      line-height: 30px;
+      font-family: Roboto, sans-serif;
+    }
+  }
+}
+
+.category{
+  &-icon{
+    display: inline-block;
+    &-tag{
+      margin-right: 15px;
+      img{
+        height: 20px;
+      }
+    }
+  }
+  &-name{
+    display: inline-block;
+    a{
+      color: #bf5901
+    }
+    a:hover{
+      text-decoration: none;
+      font-weight: 400;
+    }
+  }
+}

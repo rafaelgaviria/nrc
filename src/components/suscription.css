@@ -1,0 +1,12 @@
+.suscription{
+  background: #D3D3D3;
+  margin-top: 100px;
+  &-container{
+    padding: 15px;
+    &-message{
+      text-align: right;
+      font-weight: 300;
+      font-size: responsive 16px 30px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nrc",
+  "version": "1.0.0",
+  "description": "Sitio Web Consejo Noruego para Refugiados",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Gaviria",
+  "license": "ISC",
+
+  "repository": {
+    "private": true
+  }
+}
+

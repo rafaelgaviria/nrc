@@ -1,0 +1,17 @@
+:root{
+		--bg-footer: #F5F5F5;
+		--bg-primaryColor: #ff7602;
+}
+
+/* Custom Media Queries */
+/*Móviles en horizontal o tablets en vertical*/
+@custom-media --mobile (max-width: 699px);
+
+/*Tablets en horizonal y escritorios normales*/
+@custom-media --tablet (width >= 700px) and (width <= 1024px);
+
+/*Escritorios muy anchos*/
+@custom-media --desktop (min-width: 1025px);
+
+/*@custom-media --retina (-webkit-max-device-pixel-ratio: 2);*/
+

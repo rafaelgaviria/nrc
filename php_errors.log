@@ -1,0 +1,15 @@
+[20-Sep-2017 00:32:52 UTC] PHP Fatal error:  Call to undefined function register_twitter() in /home/ubuntu/workspace/dist/wp-content/themes/nrc/functions.php on line 88
+[20-Sep-2017 00:32:52 UTC] PHP Stack trace:
+[20-Sep-2017 00:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dist/index.php:0
+[20-Sep-2017 00:32:52 UTC] PHP   2. require() /home/ubuntu/workspace/dist/index.php:17
+[20-Sep-2017 00:32:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/dist/wp-blog-header.php:13
+[20-Sep-2017 00:32:52 UTC] PHP   4. require_once() /home/ubuntu/workspace/dist/wp-load.php:37
+[20-Sep-2017 00:32:52 UTC] PHP   5. require_once() /home/ubuntu/workspace/dist/wp-config.php:87
+[20-Sep-2017 00:32:52 UTC] PHP   6. include() /home/ubuntu/workspace/dist/wp-settings.php:425
+[20-Sep-2017 00:34:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/dist/wp-content/themes/nrc/functions.php on line 120
+[20-Sep-2017 00:34:28 UTC] PHP Stack trace:
+[20-Sep-2017 00:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dist/index.php:0
+[20-Sep-2017 00:34:28 UTC] PHP   2. require() /home/ubuntu/workspace/dist/index.php:17
+[20-Sep-2017 00:34:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/dist/wp-blog-header.php:13
+[20-Sep-2017 00:34:28 UTC] PHP   4. require_once() /home/ubuntu/workspace/dist/wp-load.php:37
+[20-Sep-2017 00:34:28 UTC] PHP   5. require_once() /home/ubuntu/workspace/dist/wp-config.php:87

@@ -1,0 +1,98 @@
+html {
+	color: #3C3C3C;
+}
+
+body{
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: responsive 14px 18px;
+	line-height: 1.444444444444;
+	font-size: 18px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	padding-left: 40px;
+}
+.u-wrapper{
+	@media (--tablet){
+		lost-center: 1400px;
+		padding: 0 40px;
+	}
+	@media (--desktop){
+		lost-center: 1400px;
+	}
+}
+.wrapper-wide{
+	padding: 0 10px;
+	@media (--tablet){
+		lost-center: 100%;
+		padding: 0 25px;
+	}
+	@media (--desktop){
+		lost-center: 1400px;
+		padding: 0 15px;
+	}
+}
+
+.hide{
+	@media (--desktop){
+		lost-center: 1400px;
+		display: none;
+	}
+}
+
+
+h1{
+	/*font-size: calc(var(--fontsize));*/
+	font-size: responsive 25px 50px;
+	font-weight: 300;
+}
+
+h2{
+	/*font-size: calc(var(--fontsize) * 10.5);*/
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 39px;
+}
+
+p{
+	font-size: 1em;
+	margin: 0 0 18px 0;
+}
+
+a{
+	color: var(--bg-primaryColor);
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: var(--bg-primaryColor);
+}
+
+button{
+  outline:0px;
+  background: none;
+  border: none;
+}
+
+/************** VIVE LA EDUCACIÓN **************/
+.vive-la-educacion{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+}
+
+.contentareaitem{
+	margin-bottom: 55px;
+}

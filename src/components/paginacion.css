@@ -1,0 +1,13 @@
+.pagination{
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px;
+
+  a,
+  span{
+    font-size: responsive 23px 20px;
+    font-weight: 500;
+    padding: 10px;
+    
+  }
+}

@@ -1,0 +1,13 @@
+.article{
+  lost-center:1400px;
+  .row{
+    padding: 10px 40px 10px 40px;
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: responsive 20px 50px;
+      margin: 0 0 20px;
+    }
+  }
+}

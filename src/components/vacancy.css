@@ -1,0 +1,29 @@
+.vacancy{
+  @media (--desktop){
+    lost-center: 1200px;
+  }
+  &-list{
+    border-bottom: 1px solid #F2F0E7;
+    padding: 15px 0;
+    width: 100%;
+    h2{
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 30px;
+      margin: 0;
+      max-width: 788px;
+      display: inline-block;
+      a{
+        color: #000;
+      }
+    }
+    time{
+      white-space: nowrap;
+      display: inline-block;
+      font-size: 15px;
+      color: #939393;
+      margin-left: 15px;
+      font-weight: 300;
+    }
+  }
+}

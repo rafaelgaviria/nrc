@@ -1,0 +1,33 @@
+.twitterComp{
+	lost-center: 600px;
+	margin-bottom: 45px;
+}
+
+.tweet{
+	margin-bottom: 45px;
+	/*background-color: pink;*/
+	
+ 
+}
+.ctf-tweets{
+	@media (--desktop){
+    lost-center: 1430px;
+  }
+	.ctf-item{
+	  text-align: center;
+	  padding: 0px !important; 
+	  border-top: 0px !important;
+	  @media (--desktop){
+			lost-column: 1/3 gutter 20px;
+  	}
+		a{
+			color: #ff7602 !important;
+		}
+	}
+}
+
+
+#ctf .ctf-tweet-actions a{
+	float: none;
+	color: #AAB8C2 !important;
+}

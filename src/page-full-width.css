@@ -1,0 +1,30 @@
+#single{
+  width: 100%;
+  .u-wrapper2{
+    padding: 0 40px;
+    lost-center: 1200px;
+    .meta-info-compartir{
+      border-bottom: 1px solid var(--bg-primaryColor);
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  }  
+  .single-body {
+    max-width: 850px;
+    width: 100%;
+    margin-left: 0 !important;
+    p{
+      font-size: 18px;
+      line-height: 30px;
+      font-family: Roboto, sans-serif;
+    }
+  }
+}

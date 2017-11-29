@@ -1,0 +1,151 @@
+@import './settings.css';
+
+@import './elements/elements.css';
+@import './elements/tables.css';
+
+@import './category.css';
+@import './single.css';
+@import './article.css';
+@import './page.css';
+@import './page-full-width.css';
+
+@import './menu.css';
+@import './carrusel.css';
+@import './header.css';
+@import './menutop.css';
+@import './gridThumb.css';
+@import './footer.css';
+@import './sitios-interes.css';
+@import './tema-destacado.css';
+@import './trabaja-con-nosotros.css';
+@import './sigue-la-conversacion.css';
+
+/* COMPONENTS */
+@import './components/lines-heading-home.css';
+@import './components/suscription.css';
+@import './components/menu-desplegable.css';
+@import './components/searchresult-item.css';
+@import './components/vacancy.css';
+@import './components/twitter.css';
+@import './components/paginacion.css';
+
+@lost flexbox flex;
+
+.Header{
+	&-mobile{
+    lost-center: 95%;
+    @media (--tablet){
+      display: none;
+    }
+    @media (--desktop){
+      display: none;
+    }
+		&-logo{
+      lost-column: 4/6 gutter 0;
+      img{
+        width: 60%;
+      }
+		}
+		&-search{
+
+      lost-column: 1/6 gutter 0;
+      img{
+        width: 30px;
+      }
+		}
+		&-menu{
+
+      lost-column: 1/6 gutter 0;
+      img{
+        width: 30px;
+      }
+		}
+	}
+}
+
+.collabsibleBox{
+  background-color: #ededed;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 0px;
+  width: 100%;
+  &-title{
+    color: #3C3C3C;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  &-title:hover{
+    color: #3C3C3C;
+    text-decoration: none;
+  }
+  &-title::after{
+    content: '';
+    background-image: url("images/collapsed.png");
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin: 10px 38px 0px 0px;
+  } 
+  .documentos-contratacion{
+    text-align: left;
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 45px;
+    ul{
+      li{
+        color: #FF7602;
+        margin-top: 5px;
+        a{
+          color: #3C3C3C;
+        }
+      }
+    }
+  }
+}
+
+.twitter-icon{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+/*  MULTIMEDIA  */
+.videoContainer{
+  @media (--desktop){
+    &-videoItem{
+      width: 32%;
+      height: auto;
+      display: inline-block;
+      @media (--tablet){
+        width: 45%;
+        display: inline-block;
+      }
+      &-title{
+        h3{
+          font-size: 18px;
+          text-align: center;
+        }
+      }
+    }
+    &-videoItem:nth-child(odd){
+      @media (--tablet){
+        margin-right: 35px;
+      }
+    }
+  }
+}
+
+.gridThumbDonantes-item{
+  @media (--desktop){
+    margin-right: 7px;
+    width: 24.5%;
+  }
+}

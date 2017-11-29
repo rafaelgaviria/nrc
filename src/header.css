@@ -1,0 +1,63 @@
+.Header{
+	lost-utility: clearfix;
+	margin: 25px 0;
+	padding-left: 9px;
+	&-logo{
+		display: none;
+		@media (--tablet){
+			display: block;
+			lost-column: 6/12;
+		}
+		@media (--desktop){
+			display: block;
+			lost-column: 6/12;
+		}
+	}
+	&-search{
+		display: none; 
+		margin-top: 15px;
+		@media (--tablet){
+			display: block;
+			lost-column: 6/12;
+      }
+		@media (--desktop){
+			display: block;
+			lost-column: 6/12;
+      }
+		label{
+			display: none;
+		}
+			
+		#s{
+			width: 60%;
+			height: 40px;
+			padding: 0 5px;
+			border: 1px solid #DFDAC8;
+			background-color: transparent;
+		}
+		#searchsubmit{
+			@media (--mobile){
+				width: 30%;
+			}
+			-webkit-transition: 300ms all;
+			-moz-transition: 300ms all;
+			-ms-transition: 300ms all;
+			-o-transition: 300ms all;
+			transition: 300ms all;
+			border: 2px solid #FF7602;
+			font-size: 1em;
+			padding: 0 10px;
+			margin: 0 5px;
+			height: inherit;
+			height: 40px;
+			background: #FFFFFF;
+		}
+
+		#searchsubmit:hover{
+			background: #FF7602;
+		}
+	}
+}
+
+
+

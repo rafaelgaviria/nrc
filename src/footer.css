@@ -1,0 +1,146 @@
+.Footer{
+  background: var(--bg-footer);
+  padding-top: 36px;
+  padding-bottom: 88px;
+  @media (--mobile){
+    padding-bottom: 150px;
+  }
+  &-container{
+    @media (--mobile){
+      padding-left: 10%;
+      padding-right: 10%;  
+    }
+    padding-left: 15px;
+    padding-right: 15px;
+    lost-center: 1400px;
+    @media (--tablet){
+      lost-center: 1400px;
+    }
+    &-social{
+      @media (--mobile){
+        margin-top: 25px;
+        width: 100%;
+        padding-bottom: 20px;
+      }
+      @media (--tablet){
+        lost-column: 2/5;
+      }
+      @media (--desktop){
+        lost-column: 2/5;
+      }
+      .title-footer{
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: responsive 18px 19px;
+        color: #4B3625;
+        font-weight: 900;
+        line-height: 1.167em;
+        margin-bottom: 15px;
+      }
+      .contact{
+        margin-bottom: 30px;
+        .icon{
+          width: 40px;
+          display: inline-block;
+          text-align: center;
+          .img-phone{
+            width: 40%;
+          }
+          .img-mail{
+            width: 63%;
+          }
+        }
+        .phone, .mail{
+          display: inline-block;
+          a{
+            color: #BF5901;
+          }
+        }
+      }
+      p{
+        font-size: responsive 17px 20px;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 31px;
+      }
+      
+      .social-icon{
+        a{
+          display: inline-block;
+          background-color: rgb(189, 197, 201);
+          height: 32px;
+          width: 32px;
+          border-radius: 18%;
+          margin: 0 6px 0 0;
+        }
+      }
+    }
+    &-whatwedo,
+    &-wherewework,
+    &-shortcuts{
+      @media (--mobile){
+        width: 100%;
+      }
+      @media (--tablet){
+        lost-column: 1/5;
+      }
+      @media (--desktop){
+        lost-column: 1/5;
+      }
+      h3.title-footer{
+        @media (--mobile){
+          border-top: 1px solid #62564B;
+          padding: 20px 20px 20px 16%;
+          margin: 0px;
+        }
+        color: #4B3625;
+        font-size: responsive 18px 19px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.2em;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+      }
+      .title-footer::after{
+        @media (--mobile){
+          content: '';
+          background-image: url("images/collapsed.png");
+          height: 20px;
+          width: 20px;
+          float: right;
+        }
+      } 
+      ul{
+        @media (--mobile){
+          display: none;
+          padding: 0 16%;
+        }
+        padding-left: 0;
+        list-style: none;
+        @media (--tablet){
+          display: block;
+        }
+        @media (--desktop){
+          display: block;
+        }
+        li{
+          a{
+            color: #BF5901;
+            display: block; 
+            text-decoration: none;
+            font-weight: 400;;
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          a:hover{
+            text-decoration: underline;
+
+          }
+        }
+      }
+    }
+  }
+} 
+
+
+
